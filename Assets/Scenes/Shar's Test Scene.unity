@@ -3395,6 +3395,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5615145396748845476, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1260766043}
+    - targetCorrespondingSourceObject: {fileID: 5615145396748845476, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1260766046}
+    - targetCorrespondingSourceObject: {fileID: 5615145396748845476, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1260766045}
   m_SourcePrefab: {fileID: 100100000, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
 --- !u!1 &1260766042 stripped
 GameObject:
@@ -3447,13 +3453,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.03}
-      - {x: -0.22, y: -0.01}
+    - - {x: 0, y: 1.104914}
+      - {x: -0.33602753, y: 1.1246313}
       - {x: -0.32999998, y: -0.14}
       - {x: -0.32999998, y: -0.32999998}
-      - {x: 0.32999998, y: -0.32999998}
-      - {x: 0.32999998, y: -0.08}
-      - {x: 0.29, y: 0.03}
+      - {x: 1.0667725, y: -0.3718011}
+      - {x: 1.0725741, y: -0.026253454}
+      - {x: 1.0731838, y: 1.0869985}
   m_UseDelaunayMesh: 1
 --- !u!114 &1260766044
 MonoBehaviour:
@@ -3469,6 +3475,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ModifyHealthAttribute
   destroyWhenActivated: 0
   healthChange: 5
+--- !u!114 &1260766045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260766042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueBalloonAction
+  textToDisplay: Hey! Let me heal you, you look rough...
+  backgroundColor: {r: 0.3749755, g: 0.078616306, b: 0.4716981, a: 1}
+  textColor: {r: 0.5965237, g: 0.4504568, b: 0.654088, a: 1}
+  targetObject: {fileID: 1260766048}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 0}
+--- !u!114 &1260766046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260766042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConditionArea
+  actions:
+  - {fileID: 1260766045}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
+  frequency: 1
+  eventType: 0
+--- !u!4 &1260766048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7367947104396549474, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
+  m_PrefabInstance: {fileID: 1260766041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1316817539
 GameObject:
   m_ObjectHideFlags: 0
@@ -15874,12 +15928,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 0.5
+  speed: 1.3
   directionChangeInterval: 3
   orientToDirection: 0
   lookAxis: 0
   waypoints:
-  - {x: 16.388212, y: -16.420715}
+  - {x: 16.388212, y: -16.265049}
 --- !u!1 &9073928323884034322
 GameObject:
   m_ObjectHideFlags: 0
@@ -15909,7 +15963,7 @@ Transform:
   m_GameObject: {fileID: 9073928323884034322}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.57, y: -16.4, z: 0}
+  m_LocalPosition: {x: 19.79, y: -16.24, z: 0}
   m_LocalScale: {x: 2.12375, y: 0.6595, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

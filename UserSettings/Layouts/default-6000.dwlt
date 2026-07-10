@@ -718,7 +718,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 270
+  m_LastVerticalScrollValue: 625.49994
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1442,9 +1442,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 16.051708, y: -14.105037, z: -0.018150251}
+    m_Target: {x: 19.15083, y: -16.480194, z: 0}
     speed: 2
-    m_Value: {x: 16.051708, y: -14.105037, z: -0.018150251}
+    m_Value: {x: 19.15083, y: -16.480194, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1494,9 +1494,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.313659
+    m_Target: 3.9150226
     speed: 2
-    m_Value: 7.313659
+    m_Value: 3.9150226
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1682,7 +1682,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Art/Sidescroller
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1692,24 +1692,22 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Art/Sidescroller
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Shar\OneDrive\Documents\GitHub\GMG-Unity-2025
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 212.66669}
+    scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 37944
+    - m_Data: 38050
     m_LastClickedID:
-      m_Data: 37944
+      m_Data: 38050
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 36640
-    - m_Data: 37938
-    - m_Data: 38000
-    - m_Data: 38002
+    - m_Data: 36670
+    - m_Data: 37966
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -1744,7 +1742,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 36640
+    - m_Data: 36670
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
